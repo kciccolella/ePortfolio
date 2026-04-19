@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".NotificationsActivity">
+
+    <!-- Screen title -->
+    <TextView
+        android:id="@+id/textViewNotificationsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notifications &amp; SMS"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#212121" />
+
+    <!-- Short explanation -->
+    <TextView
+        android:id="@+id/textViewNotificationsDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable SMS alerts so Weight Tracker can send you a text message when you reach your goal weight."
+        android:textSize="14sp"
+        android:textColor="#424242"
+        android:layout_marginTop="8dp" />
+
+    <!-- Enable SMS switch -->
+    <Switch
+        android:id="@+id/switchEnableSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Enable SMS text alerts"
+        android:layout_marginTop="24dp" />
+
+    <!-- Goal weight label -->
+    <TextView
+        android:id="@+id/textViewGoalWeightLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Goal weight"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" />
+
+    <!-- Goal weight input -->
+    <EditText
+        android:id="@+id/editTextGoalWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="e.g., 160"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number for SMS alerts"
+        android:inputType="phone"
+        android:layout_marginTop="12dp"
+        android:minHeight="48dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp" />
+
+
+
+    <!-- Notify on goal checkbox -->
+    <CheckBox
+        android:id="@+id/checkBoxNotifyOnGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send me a text when I reach my goal weight"
+        android:layout_marginTop="16dp" />
+
+    <!-- Info about permission behavior -->
+    <TextView
+        android:id="@+id/textViewSmsInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If you deny SMS permission, you can still track your weight, but you will not receive text message alerts."
+        android:textSize="12sp"
+        android:textColor="#616161"
+        android:layout_marginTop="16dp" />
+
+    <!-- Placeholder for permission status (Project 3) -->
+    <TextView
+        android:id="@+id/textViewSmsStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMS permission status will appear here."
+        android:textSize="12sp"
+        android:textColor="#757575"
+        android:layout_marginTop="8dp" />
+
+    <!-- Save button -->
+    <Button
+        android:id="@+id/buttonSaveNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Notification Settings"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
