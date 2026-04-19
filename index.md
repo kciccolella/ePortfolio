@@ -44,7 +44,7 @@ Completing the Computer Science program at SNHU, along with developing my ePortf
 ### Code Review
 
 <div style="text-align: center;">
-    <a href="https://github.com/kciccolella/ePortfolio/blob/main/Images/CodeReview.png" target="_blank">
+    <a href="https://www.dropbox.com/scl/fi/zgaulqaqypmhc5r8uf7xv/CS-499-2-2-Code-Review-compressed.mp4?rlkey=1hdj0rptxzfnnlv7iypkmz030&st=k0a6o6b0&dl=0" target="_blank">
         <img src="./Images/CodeReview.png" width="480px" title="Screenshot of the code review." alt="Screenshot of the code review."/>
     </a>
     <p><em>Screenshot of the code review</em></p>
